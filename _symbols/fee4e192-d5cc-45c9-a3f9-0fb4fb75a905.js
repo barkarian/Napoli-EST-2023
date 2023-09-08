@@ -1269,7 +1269,7 @@ function get_each_context(ctx, list, i) {
 	return child_ctx;
 }
 
-// (79:8) {#if teaser.image.url}
+// (85:8) {#if teaser.image.url}
 function create_if_block_1(ctx) {
 	let img;
 	let img_src_value;
@@ -1287,7 +1287,7 @@ function create_if_block_1(ctx) {
 		h() {
 			if (!src_url_equal(img.src, img_src_value = /*teaser*/ ctx[2].image.url)) attr(img, "src", img_src_value);
 			attr(img, "alt", img_alt_value = /*teaser*/ ctx[2].image.alt);
-			attr(img, "class", "svelte-14ubem6");
+			attr(img, "class", "svelte-1b0jt0z");
 		},
 		m(target, anchor) {
 			insert_hydration(target, img, anchor);
@@ -1307,7 +1307,7 @@ function create_if_block_1(ctx) {
 	};
 }
 
-// (85:10) {#if teaser.link.url}
+// (91:10) {#if teaser.link.url}
 function create_if_block(ctx) {
 	let a;
 	let t_value = /*teaser*/ ctx[2].link.label + "";
@@ -1328,7 +1328,7 @@ function create_if_block(ctx) {
 			this.h();
 		},
 		h() {
-			attr(a, "class", "link svelte-14ubem6");
+			attr(a, "class", "link svelte-1b0jt0z");
 			attr(a, "href", a_href_value = /*teaser*/ ctx[2].link.url);
 		},
 		m(target, anchor) {
@@ -1348,7 +1348,7 @@ function create_if_block(ctx) {
 	};
 }
 
-// (77:4) {#each teasers as teaser}
+// (83:4) {#each teasers as teaser}
 function create_each_block(ctx) {
 	let div2;
 	let t0;
@@ -1402,10 +1402,10 @@ function create_each_block(ctx) {
 			this.h();
 		},
 		h() {
-			attr(h2, "class", "title svelte-14ubem6");
+			attr(h2, "class", "title svelte-1b0jt0z");
 			attr(div0, "class", "content");
-			attr(div1, "class", "body svelte-14ubem6");
-			attr(div2, "class", "teaser svelte-14ubem6");
+			attr(div1, "class", "body svelte-1b0jt0z");
+			attr(div2, "class", "teaser svelte-1b0jt0z");
 		},
 		m(target, anchor) {
 			insert_hydration(target, div2, anchor);
@@ -1494,7 +1494,7 @@ function create_fragment(ctx) {
 			this.h();
 		},
 		h() {
-			attr(div, "class", "teasers svelte-14ubem6");
+			attr(div, "class", "teasers svelte-1b0jt0z");
 			attr(section, "class", "section-container");
 		},
 		m(target, anchor) {
