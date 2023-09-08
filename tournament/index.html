@@ -2,7 +2,7 @@
   <html lang="en">
     <head>
       <meta name="generator" content="Primo" />
-      <!-- HEAD_svelte-95cp5n_START --><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta charset="UTF-8"><link rel="preconnect" href="https://fonts.bunny.net"><link href="https://fonts.bunny.net/css?family=fredoka:300,400,500,600,700|space-grotesk:300,400,500,600,700" rel="stylesheet"><link href="https://fonts.bunny.net/css?family=fredoka:300,400,500,600,700|open-sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i|space-grotesk:300,400,500,600,700" rel="stylesheet"><link rel="icon" type="image/png" sizes="32x32" href="https://volaretravel.gr/wp-content/uploads/2022/11/favicon.png"><style>/* Reset & standardize default styles */
+      <!-- HEAD_svelte-t6orqv_START --><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta charset="UTF-8"><link rel="preconnect" href="https://fonts.bunny.net"><link href="https://fonts.bunny.net/css?family=fredoka:300,400,500,600,700|space-grotesk:300,400,500,600,700" rel="stylesheet"><link href="https://fonts.bunny.net/css?family=fredoka:300,400,500,600,700|open-sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i|space-grotesk:300,400,500,600,700" rel="stylesheet"><link rel="icon" type="image/png" sizes="32x32" href="https://volaretravel.gr/wp-content/uploads/2022/11/favicon.png"><style>/* Reset & standardize default styles */
 @import url("https://unpkg.com/@primo-app/primo@1.3.64/reset.css") layer;
 
 /* Design tokens (apply to components) */
@@ -110,6 +110,10 @@
     border-color: #0d2436;
   }
 
+a{
+  color: var(--color-white);
+}
+
 .link {
   font-size: 1.125rem;
   font-weight: 400;
@@ -123,7 +127,7 @@
 .link:hover .arrow {
     transform: translateX(4px);
   }
-</style><!-- HEAD_svelte-95cp5n_END -->
+</style><!-- HEAD_svelte-t6orqv_END -->
       <style>@import url("https://unpkg.com/modern-normalize@1.1.0/modern-normalize.css");header.svelte-6vjs4t.svelte-6vjs4t.svelte-6vjs4t{border-bottom:1px solid var(--border-color)}.section-container.svelte-6vjs4t.svelte-6vjs4t.svelte-6vjs4t{display:flex;justify-content:space-between;align-items:center;padding-top:0.75rem;padding-bottom:0.75rem}.desktop-nav.svelte-6vjs4t.svelte-6vjs4t.svelte-6vjs4t{display:flex;align-items:center;justify-content:space-between;gap:1.5rem;width:100%}.desktop-nav.svelte-6vjs4t .logo.svelte-6vjs4t.svelte-6vjs4t{font-size:1.5rem;font-weight:600;line-height:1.4;margin-right:1.5rem;width:var(--size)}.desktop-nav.svelte-6vjs4t nav.svelte-6vjs4t.svelte-6vjs4t{display:flex;align-items:center;gap:1.5rem}.desktop-nav.svelte-6vjs4t nav.svelte-6vjs4t a.svelte-6vjs4t{font-size:1rem;font-weight:400;display:none}.desktop-nav.svelte-6vjs4t nav a.nav-item.svelte-6vjs4t.svelte-6vjs4t{border-bottom:2px solid transparent;transition:border-color 0.1s}.desktop-nav.svelte-6vjs4t nav a.nav-item.svelte-6vjs4t.svelte-6vjs4t:hover{border-color:var(--color-brand)}.desktop-nav.svelte-6vjs4t button#open.svelte-6vjs4t.svelte-6vjs4t{font-size:1.5rem;margin-left:auto}nav#mobile-nav.svelte-6vjs4t.svelte-6vjs4t.svelte-6vjs4t{position:absolute;flex-direction:column;text-align:center;background-color:var(--background-color, white);box-shadow:var(--box-shadow);border-radius:var(--border-radius);left:0.5rem;top:0.5rem;right:0.5rem;padding:2rem;z-index:2}nav#mobile-nav.svelte-6vjs4t a.svelte-6vjs4t.svelte-6vjs4t{display:block}nav#mobile-nav.svelte-6vjs4t hr.svelte-6vjs4t.svelte-6vjs4t{width:100%}nav#mobile-nav.svelte-6vjs4t .button.svelte-6vjs4t.svelte-6vjs4t{width:100%;justify-content:center}nav#mobile-nav.svelte-6vjs4t button#close.svelte-6vjs4t.svelte-6vjs4t{display:block;position:absolute;right:1rem;top:1rem;font-size:1.5rem}@media(min-width: 600px){#open.svelte-6vjs4t.svelte-6vjs4t.svelte-6vjs4t,#mobile-nav.svelte-6vjs4t.svelte-6vjs4t.svelte-6vjs4t{display:none}.desktop-nav.svelte-6vjs4t nav.svelte-6vjs4t a.svelte-6vjs4t{display:inline-block}}
 @media(min-width: 1200px){section.svelte-1elc4xu.svelte-1elc4xu{gap:6rem
 }}.callouts.svelte-1elc4xu.svelte-1elc4xu{display:grid;gap:6rem}.callout.svelte-1elc4xu.svelte-1elc4xu{display:grid;gap:3rem}@media(min-width: 1200px){.callout.svelte-1elc4xu.svelte-1elc4xu{gap:6rem
@@ -131,8 +135,6 @@
 
     /* switch direction for even items */
 }.callout.svelte-1elc4xu:nth-child(odd) img.svelte-1elc4xu{grid-row:1;grid-column:2}.callout.svelte-1elc4xu:nth-child(even) img.svelte-1elc4xu{grid-row:1;grid-column:1}}
-svg.svelte-iewj14 path.svelte-iewj14{fill:var(--color-accent-2)}section.svelte-iewj14.svelte-iewj14{background:var(--color-accent-2)}.section-container.svelte-iewj14.svelte-iewj14{display:grid;gap:3rem;padding-top:1rem}@media(min-width: 900px){.section-container.svelte-iewj14.svelte-iewj14{gap:7rem;grid-template-columns:1fr 1fr
-}}.signup.svelte-iewj14.svelte-iewj14{color:var(--color-inverted);display:grid;gap:1rem;place-content:start}.signup.svelte-iewj14 form.svelte-iewj14{display:flex;gap:.5rem}.signup.svelte-iewj14 form input.svelte-iewj14{color:var(--color-base)}.signup.svelte-iewj14 form input.svelte-iewj14,.signup.svelte-iewj14 form button.svelte-iewj14{font-size:1rem;padding:0.75rem 1rem;border-radius:calc(var(--border-radius) / 2)}.signup.svelte-iewj14 form button.svelte-iewj14{background:var(--color-brand);font-size:1.125rem;font-weight:500;padding:0.5rem 1.5rem}.signup.svelte-iewj14 .footer.svelte-iewj14{opacity:0.7;font-size:0.875rem;line-height:1.75}.cards.svelte-iewj14.svelte-iewj14{display:grid;gap:1rem}.cards.svelte-iewj14 .card.svelte-iewj14{display:grid;grid-template-columns:3rem auto;-moz-column-gap:1.5rem;column-gap:1.5rem;row-gap:0.5rem;padding:1.5rem;background:var(--background);border-radius:var(--border-radius)}.cards.svelte-iewj14 .card .icon.svelte-iewj14{color:var(--color-brand);padding:0.25rem;font-size:3rem;grid-row:span 2}.cards.svelte-iewj14 .card .title.svelte-iewj14{font-weight:600;font-size:1.125rem;line-height:1.5}.cards.svelte-iewj14 .card .description.svelte-iewj14{opacity:0.7;font-size:1rem}
 footer.svelte-5m5swo.svelte-5m5swo{border-top:1px solid var(--border-color, #e5e5e7)}.section-container.svelte-5m5swo.svelte-5m5swo{display:grid;justify-content:space-between;align-items:center;gap:1rem;padding-block:1rem}@media(min-width: 600px){.section-container.svelte-5m5swo.svelte-5m5swo{display:flex;flex-direction:row
 }}nav.svelte-5m5swo.svelte-5m5swo{display:flex;gap:1rem;font-size:1rem}.primo.svelte-5m5swo.svelte-5m5swo{font-weight:600;font-size:.875rem}.primo.svelte-5m5swo a.svelte-5m5swo{text-decoration:underline}ul.svelte-5m5swo.svelte-5m5swo{display:flex;gap:1rem;font-size:1.5rem;list-style:none}ul.svelte-5m5swo a.svelte-5m5swo{color:var(--color-brand);transition:var(--transition)}ul.svelte-5m5swo a.svelte-5m5swo:hover{color:var(--color-accent)}</style>
     </head>
@@ -143,26 +145,22 @@ footer.svelte-5m5swo.svelte-5m5swo{border-top:1px solid var(--border-color, #e5e
         <a class="button svelte-6vjs4t" href="tel:+306909033803">Καλέστε μας 📞</a>
         <button id="open" aria-label="Open mobile navigation" class="svelte-6vjs4t"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden role="img" width="1em" height="1em" viewBox="0 0 24 24" class="iconify iconify--ic"><!-- HTML_TAG_START --><path fill="currentColor" d="M4 18h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1s.45 1 1 1zm0-5h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1s.45 1 1 1zM3 7c0 .55.45 1 1 1h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1z"/><!-- HTML_TAG_END --></svg></button></nav></div>
     </div></header></div> 
-<div class="section" id="section-1d6527ae"><section class="svelte-1elc4xu"><div class="section-container"><div class="callouts svelte-1elc4xu"><div class="callout svelte-1elc4xu"><img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=2070&amp;q=80" alt="" class="svelte-1elc4xu">
-          <div class="body svelte-1elc4xu"><div class="heading-group svelte-1elc4xu"><div class="superhead">Interesting Feature</div>
-              <h2 class="heading">Some interesting info</h2></div>
-            <div class="content"><!-- HTML_TAG_START --><p>Details about that interesting info, that will hopefully interest your target audience.</p><!-- HTML_TAG_END --></div></div>
-        </div><div class="callout svelte-1elc4xu"><img src="https://images.unsplash.com/photo-1508739826987-b79cd8b7da12?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D&amp;auto=format&amp;fit=crop&amp;w=900&amp;q=60" alt="" class="svelte-1elc4xu">
-          <div class="body svelte-1elc4xu"><div class="heading-group svelte-1elc4xu"><div class="superhead">Another one</div>
-              <h2 class="heading">Real-time collaboration</h2></div>
-            <div class="content"><!-- HTML_TAG_START --><p>Anything that will explain the title will do. You just got to get ChatGPT to help you write it.</p><!-- HTML_TAG_END --></div></div>
-        </div></div></div></section></div> 
-<div class="section" id="section-111f3103"><svg viewBox="0 0 1440 175" fill="none" xmlns="http://www.w3.org/2000/svg" class="svelte-iewj14"><path fill-rule="evenodd" clip-rule="evenodd" d="M1440 175H0V0C240 53.3333 480 80 720 80C960 80 1200 53.3333 1440 0V175Z" class="svelte-iewj14"></path></svg>
-<section class="svelte-iewj14"><div class="section-container svelte-iewj14"><div class="signup svelte-iewj14"><h2 class="heading">We're moving fast, signup for updates and more.</h2>
-      <form action="" class="svelte-iewj14"><input type="email" placeholder="Your Email" class="svelte-iewj14">
-        <button type="button" class="svelte-iewj14">Submit</button></form>
-      <span class="footer svelte-iewj14">We'll send you bi-weekly emails about our new features.</span></div>
-    <div class="cards svelte-iewj14"><div class="card svelte-iewj14"><div class="icon svelte-iewj14"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden role="img" width="1em" height="1em" viewBox="0 0 24 24" class="iconify iconify--mdi"><!-- HTML_TAG_START --><path fill="currentColor" d="M15 14c-2.7 0-8 1.3-8 4v2h16v-2c0-2.7-5.3-4-8-4m0-2a4 4 0 0 0 4-4a4 4 0 0 0-4-4a4 4 0 0 0-4 4a4 4 0 0 0 4 4M5 15l-.6-.5C2.4 12.6 1 11.4 1 9.9c0-1.2 1-2.2 2.2-2.2c.7 0 1.4.3 1.8.8c.4-.5 1.1-.8 1.8-.8C8 7.7 9 8.6 9 9.9c0 1.5-1.4 2.7-3.4 4.6L5 15Z"/><!-- HTML_TAG_END --></svg></div>
-          <span class="title svelte-iewj14">User friendly &amp; fun</span>
-          <span class="description svelte-iewj14">With a clear intuitive interface, you can easily add and view events.</span>
-        </div><div class="card svelte-iewj14"><div class="icon svelte-iewj14"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden role="img" width="1em" height="1em" viewBox="0 0 24 24" class="iconify iconify--material-symbols"><!-- HTML_TAG_START --><path fill="currentColor" d="M10.45 15.5q.625.625 1.575.588T13.4 15.4L19 7l-8.4 5.6q-.65.45-.712 1.362t.562 1.538ZM5.1 20q-.55 0-1.012-.238t-.738-.712q-.65-1.175-1-2.438T2 14q0-2.075.788-3.9t2.137-3.175q1.35-1.35 3.175-2.137T12 4q2.05 0 3.85.775T19 6.888q1.35 1.337 2.15 3.125t.825 3.837q.025 1.375-.313 2.688t-1.037 2.512q-.275.475-.738.713T18.875 20H5.1Z"/><!-- HTML_TAG_END --></svg></div>
-          <span class="title svelte-iewj14">Responsive and speedy</span>
-          <span class="description svelte-iewj14">Our desktop and web application are both super speedy.</span>
+<div class="section" id="section-1d6527ae"><section class="svelte-1elc4xu"><div class="section-container"><div class="callouts svelte-1elc4xu"><div class="callout svelte-1elc4xu"><img src="https://mzcshgvqwxlfikugautm.supabase.co/storage/v1/object/public/images/1917fadd-6d4f-479f-b949-38a12862559f/1690804360000DSC02259.jpg" alt="" class="svelte-1elc4xu">
+          <div class="body svelte-1elc4xu"><div class="heading-group svelte-1elc4xu"><div class="superhead">⚽🏃</div>
+              <h2 class="heading">Αγώνες</h2></div>
+            <div class="content"><!-- HTML_TAG_START --><p>Διεθνείς αγώνες μεταξύ Ελληνικών και Ιταλικών ομάδων!</p><!-- HTML_TAG_END --></div></div>
+        </div><div class="callout svelte-1elc4xu"><img src="https://mzcshgvqwxlfikugautm.supabase.co/storage/v1/object/public/images/1917fadd-6d4f-479f-b949-38a12862559f/1690811738000DSC03104.jpg" alt="" class="svelte-1elc4xu">
+          <div class="body svelte-1elc4xu"><div class="heading-group svelte-1elc4xu"><div class="superhead">🍕😄</div>
+              <h2 class="heading">Διασκέδαση</h2></div>
+            <div class="content"><!-- HTML_TAG_START --><p>Χώρος για Snacks και ψυχαγωγία των αθλητών εντός των αθλητικών εγκαταστάσεων!</p><!-- HTML_TAG_END --></div></div>
+        </div><div class="callout svelte-1elc4xu"><img src="https://mzcshgvqwxlfikugautm.supabase.co/storage/v1/object/public/images/1917fadd-6d4f-479f-b949-38a12862559f/IMG_6950.JPG1690811784000" alt="" class="svelte-1elc4xu">
+          <div class="body svelte-1elc4xu"><div class="heading-group svelte-1elc4xu"><div class="superhead">ΝΙΚΗ και γιορτη</div>
+              <h2 class="heading">Απονομές μεταλλίων</h2></div>
+            <div class="content"><!-- HTML_TAG_START --><p>Απονομή μεταλλίων και κυπέλλων !🏆</p><!-- HTML_TAG_END --></div></div>
+        </div><div class="callout svelte-1elc4xu"><img src="https://mzcshgvqwxlfikugautm.supabase.co/storage/v1/object/public/images/1917fadd-6d4f-479f-b949-38a12862559f/IMG_6947.JPG1690811786000" alt="" class="svelte-1elc4xu">
+          <div class="body svelte-1elc4xu"><div class="heading-group svelte-1elc4xu"><div class="superhead">💃🤸</div>
+              <h2 class="heading">Χορός και γιορτή</h2></div>
+            <div class="content"><!-- HTML_TAG_START --><p></p><!-- HTML_TAG_END --></div></div>
         </div></div></div></section></div> 
 <div class="section" id="section-96225b81"><footer class="svelte-5m5swo"><div class="section-container svelte-5m5swo"><nav class="svelte-5m5swo"><a href="/about">About us</a><a href="/why">Why Cali</a></nav>
     <span class="primo svelte-5m5swo"><a href="https://primo.so" class="svelte-5m5swo">Primo</a> Powered </span>
@@ -172,19 +170,6 @@ footer.svelte-5m5swo.svelte-5m5swo{border-top:1px solid var(--border-color, #e5e
         </li></ul></div></footer></div> 
 
       <script type="module">
-      import('/_symbols/234a6c0e-5dc5-4414-9ea6-82724849a4b6.js')
-      .then(({default:App}) => {
-        
-            new App({
-              target: document.querySelector('#section-111f3103'),
-              hydrate: true,
-              props: {"heading":"We're moving fast, signup for updates and more.","form":{"footer":"We'll send you bi-weekly emails about our new features.","placeholder":"Your Email","button_label":"Submit"},"cards":[{"icon":"mdi:user-heart","title":"User friendly & fun","description":"With a clear intuitive interface, you can easily add and view events."},{"icon":"material-symbols:speed","title":"Responsive and speedy","description":"Our desktop and web application are both super speedy."}]}
-            })
-          
-      })
-      .catch(e => console.error(e))
-    
-
       import('/_symbols/1d96879c-4232-4015-9981-d1e06366e716.js')
       .then(({default:App}) => {
         
@@ -217,7 +202,7 @@ footer.svelte-5m5swo.svelte-5m5swo{border-top:1px solid var(--border-color, #e5e
             new App({
               target: document.querySelector('#section-1d6527ae'),
               hydrate: true,
-              props: {"callouts":[{"image":{"alt":"","src":"https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80","url":"https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80","size":null},"content":{"html":"<p>Details about that interesting info, that will hopefully interest your target audience.</p>","markdown":"Details about that interesting info, that will hopefully interest your target audience."},"heading":"Some interesting info","superhead":"Interesting Feature"},{"image":{"alt":"","src":"https://images.unsplash.com/photo-1508739826987-b79cd8b7da12?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=900&q=60","url":"https://images.unsplash.com/photo-1508739826987-b79cd8b7da12?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=900&q=60","size":null},"content":{"html":"<p>Anything that will explain the title will do. You just got to get ChatGPT to help you write it.</p>","markdown":"Anything that will explain the title will do. You just got to get ChatGPT to help you write it."},"heading":"Real-time collaboration","superhead":"Another one"}]}
+              props: {"callouts":[{"image":{"alt":"","src":"https://mzcshgvqwxlfikugautm.supabase.co/storage/v1/object/public/images/1917fadd-6d4f-479f-b949-38a12862559f/1690804360000DSC02259.jpg","url":"https://mzcshgvqwxlfikugautm.supabase.co/storage/v1/object/public/images/1917fadd-6d4f-479f-b949-38a12862559f/1690804360000DSC02259.jpg","size":10074},"content":{"html":"<p>Διεθνείς αγώνες μεταξύ Ελληνικών και Ιταλικών ομάδων!</p>","markdown":"Διεθνείς αγώνες μεταξύ Ελληνικών και Ιταλικών ομάδων!"},"heading":"Αγώνες","superhead":"⚽🏃"},{"image":{"alt":"","src":"https://mzcshgvqwxlfikugautm.supabase.co/storage/v1/object/public/images/1917fadd-6d4f-479f-b949-38a12862559f/1690811738000DSC03104.jpg","url":"https://mzcshgvqwxlfikugautm.supabase.co/storage/v1/object/public/images/1917fadd-6d4f-479f-b949-38a12862559f/1690811738000DSC03104.jpg","size":10455},"content":{"html":"<p>Χώρος για Snacks και ψυχαγωγία των αθλητών εντός των αθλητικών εγκαταστάσεων!</p>","markdown":"Χώρος για Snacks και ψυχαγωγία των αθλητών εντός των αθλητικών εγκαταστάσεων!"},"heading":"Διασκέδαση","superhead":"🍕😄"},{"image":{"alt":"","url":"https://mzcshgvqwxlfikugautm.supabase.co/storage/v1/object/public/images/1917fadd-6d4f-479f-b949-38a12862559f/IMG_6950.JPG1690811784000"},"content":{"html":"<p>Απονομή μεταλλίων και κυπέλλων !🏆</p>","markdown":"Απονομή μεταλλίων και κυπέλλων !🏆"},"heading":"Απονομές μεταλλίων","superhead":"ΝΙΚΗ και γιορτη"},{"image":{"alt":"","url":"https://mzcshgvqwxlfikugautm.supabase.co/storage/v1/object/public/images/1917fadd-6d4f-479f-b949-38a12862559f/IMG_6947.JPG1690811786000"},"content":{"html":"<p></p>","markdown":"\n\n"},"heading":"Χορός και γιορτή","superhead":"💃🤸"}]}
             })
           
       })
