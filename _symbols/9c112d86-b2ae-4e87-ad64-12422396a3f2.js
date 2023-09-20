@@ -1,4 +1,4 @@
-// Teaser List - Updated September 11, 2023
+// Teaser List - Updated September 20, 2023
 function noop() { }
 function assign(tar, src) {
     // @ts-ignore

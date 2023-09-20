@@ -1,4 +1,4 @@
-// Testimonials 1 - Updated September 11, 2023
+// Testimonials 1 - Updated September 20, 2023
 function noop() { }
 const identity = x => x;
 function assign(tar, src) {
